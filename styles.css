@@ -1,0 +1,157 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+ 
+
+* {
+    box-sizing: border-box;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Poppins;
+}
+
+h1 {
+    font-size: 3.3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+p {
+    margin-bottom: 1.25rem;
+    line-height: 2;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+img:not(.logo) {
+    width: 500px;
+    text-align: center;
+     
+}
+
+.logo {
+    display: flex;
+    width: 250px;
+    height: 67px;
+    align-items: flex-start;
+}
+
+.nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    height: 65px;
+    padding: 1rem 2rem;
+}
+
+.nav-center {
+    margin: 0 auto;
+}
+
+.list {
+    text-decoration: none;
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #FAFAD2;
+}
+
+.hero {
+    background-color:  #FAFAD2;
+    height: calc(100vh - 65px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-banner {
+    text-align: center;
+    color: black ;
+    padding: 0 2rem;
+}
+
+.hero-title {
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+    font-size: 3.3rem;
+    margin-bottom: 2rem;
+}
+
+.hero-text {
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    line-height: 2;
+    letter-spacing: 2px;
+}
+
+.about-info {
+  display: flex;
+  flex-direction: column;  
+  justify-content: center; 
+  margin-top: 2rem;
+  background-color: #FFE4B5;
+  
+}
+  
+
+.btn-primary {
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    border: 2px solid black;
+    padding: 0.9rem 1.6rem;
+    color: black;
+    transition: all 0.3s linear;
+    width: 300px;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    background-color: #ffdab9;
+    color: black;
+}
+
+.about {
+    background-color: #FFE4B5;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+footer {
+    background-color:  #FAFAD2;
+    padding-top: 30px;
+}
+
+.nav-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-icon {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+}
+
+.nav-icon:hover {
+    color: white;
+    opacity: 0.6;
+}
+
+ 
+
+ 
